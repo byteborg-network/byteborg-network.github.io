@@ -1,0 +1,148 @@
+.hidden-bar {
+  position: fixed;
+  top: 0;
+  width: 320px;
+  height: 100%;
+  background: #1c1c1c;
+  z-index: 9999;
+  transition: all 700ms ease;
+  -webkit-transition: all 700ms ease;
+  -ms-transition: all 700ms ease;
+  -o-transition: all 700ms ease;
+  -moz-transition: all 700ms ease;
+
+  .mCSB_inside {
+    > .mCSB_container {
+      margin-right: 10px;
+    }
+  }
+
+  .hidden-bar-closer {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    color: #ffffff;
+    border-radius: 0px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    z-index: 999999;
+
+    button {
+      background: none;
+      display: block;
+      font-size: 16px;
+      color: #ffffff;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+
+    &:hover {
+      button {
+        color: #ffffff;
+      }
+    }
+  }
+
+  .logo {
+    padding: 0px 0px 30px;
+    background: #1c1c1c;
+
+    img {
+      display: inline-block;
+      max-width: 100%;
+    }
+  }
+
+  .content-box {
+    position: relative;
+
+    h3 {
+      position: relative;
+      font-size: 24px;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .text {
+      position: relative;
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.60);
+      margin-bottom: 25px;
+    }
+  }
+
+  .contact-info {
+    position: relative;
+    margin-top: 60px;
+    margin-right: 10px;
+
+    h2 {
+      position: relative;
+      font-size: 18px;
+      color: #ffffff;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.hidden-bar.right-align {
+  right: -400px;
+  right: -400px;
+}
+
+.hidden-bar.right-align.visible-sidebar {
+  right: 0px;
+  right: 0px;
+}
+
+.hidden-bar-wrapper {
+  height: 100%;
+  padding: 30px 5px 30px 30px;
+}
+
+.list-style-two {
+  position: relative;
+
+  li {
+    position: relative;
+    margin-bottom: 12px;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 30px;
+    line-height: 24px;
+    margin-bottom: 12px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: rgba(255, 255, 255, 0.60);
+
+      &:hover {
+        color: #ff6000;
+      }
+    }
+
+    .icon {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      color: rgba(255, 255, 255, 0.60);
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}

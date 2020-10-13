@@ -1,0 +1,41 @@
+{% if site.data.services %}
+<!--Services Section-->
+<section class="services-section-two">
+    <div class="bubble-dotted">
+    {% for i in (1..10) %}
+        <span class="dotted dotted-{{ i }}"></span>
+    {% endfor %}
+    </div>
+    <div class="faded-text style-two light"><div class="f-text"><span>{{ site.data.services.title }}</span></div></div>
+    <div class="auto-container">
+        <div class="sec-title style-three light centered">
+            <div class="sub-title">{{ site.data.services.sub_title }}</div>
+            <h2>{{ site.data.services.info }}</h2>
+        </div>
+        <div class="services-carousel owl-theme owl-carousel">
+            {% for item in site.data.services.items %}
+            <div class="service-block-two">
+                <div class="inner-box">
+                    <div class="count"><span>{{ forloop.index }}</span></div>
+                    <div class="icon-box">
+                        <span class="{{ item.icon }}"></span>
+                    </div>
+                    {% if item.title %}
+                    <h3>{{ item.title }}</h3>
+                    {% endif %}
+                    {% if item.features %}
+                    <div class="features">
+                        <ul>
+                            {% for feature in item.features %}
+                            <li>{{ feature }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

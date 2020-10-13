@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.data.config.meta.title | escape }}{% endif %}</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 160 }}">
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+    <meta property="og:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}"/>
+    <meta property="og:image" content="{{ page.featured-image | prepend: site.url }}"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.data.config.twitter_handle }}">
+    <meta name="twitter:creator" content="@{{ site.data.config.twitter_handle }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ page.metadescription | strip_html | strip_newlines | truncate: 300 }}">
+    <meta name="twitter:image" content="{{ page.featured-image | prepend: site.url }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=2.0,minimum-scale=1.0"/>
+
+    <link rel="canonical" href="{% if page.canonical %}{{ page.canonical }}{% else %}{{ page.url | prepend: site.url }}{% endif %}"/>
+    <link rel="alternate" type="application/atom+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml"/>
+    <link href="{{ relative_url }}/assets/css/main.css?v={{ site.version }}" rel="stylesheet"/>
+    <link href="{{ relative_url }}/assets/css/responsive.css?v={{ site.version }}" rel="stylesheet"/>
+    <link rel="shortcut icon" href="{{ relative_url }}/assets/images/favicon.svg" type="image/x-icon"/>
+    <link rel="icon" href="{{ relative_url }}/assets/images/favicon.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="{{ site.data.config.google_fonts }}" />
+    {% if site.data.config.google_tag_manager %}
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push(
+                {
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+            let f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', '{{ site.data.config.google_tag_manager }}')
+    </script>
+    <!-- End Google Tag Manager -->
+    {% endif %}
+</head>
+<body>
+<div class="page-wrapper">
+    {% if site.preloader %}
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="spinner">
+                <div class="inner">
+                    <div class="disc"></div>
+                    <div class="disc"></div>
+                    <div class="disc"></div>
+                </div>
+            </div>
+        </div>
+    {% endif %}
+    {{ content }}
+</div>
+<!--End pagewrapper-->
+<!--Scroll to top-->
+
+<div class="scroll-to-top scroll-to-target" data-target="html"><span class="flaticon-up-arrow"></span></div>
+{% include scripts.liquid %}
+</body>
+</html>

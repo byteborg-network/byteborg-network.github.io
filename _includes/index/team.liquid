@@ -1,0 +1,42 @@
+{% if site.data.team and site.data.team.items %}
+<!--Team Section-->
+<section class="team-section-two">
+    <div class="faded-text style-two"><div class="f-text"><span>{{ site.data.team.text }}</span></div></div>
+    <div class="auto-container">
+        <div class="sec-title-three centered">
+            <div class="sub-title">{{ site.data.team.title }}</div>
+            <h2>{{ site.data.team.sub_title }}</h2>
+        </div>
+        {% if site.data.team.items %}
+        <div class="team-carousel-two owl-theme owl-carousel">
+        {% for item in site.data.team.items %}
+            <!--Block-->
+            <div class="team-block-two">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <figure class="image"><img src="{{ item.image_url }}" {% if item.image_alt %}alt="{{ item.image_alt }}"{% endif %} {% if item.image_title %}title="{{ item.image_title }}"{% endif %}></figure>
+                        {% if item.proffesion %}
+                        <div class="designation">{{ item.proffesion }}</div>
+                        {% endif %}
+                    </div>
+                    <div class="lower-box">
+                        <h3 class="name">{{ item.name }}</h3>
+                        <div class="text">{{ item.text }}</div>
+                        {% if item.social %}
+                        <div class="social">
+                            <ul class="clearfix">
+                                {% for social in item.social %}
+                                <li><a href="{{ social.url }}"><span class="fab fa-{{ social.type }}"></span></a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</section>
+{% endif %}

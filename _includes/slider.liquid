@@ -1,0 +1,52 @@
+{% if site.data.slider %}
+<!-- Banner Section -->
+<section class="banner-section banner-three">
+    <div class="outer-container">
+        <div class="banner-carousel owl-theme owl-carousel">
+            {% for item in site.data.slider %}
+            <div class="slide-item">
+                <div class="row clearfix">
+                    <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="content-box">
+                            <div class="content clearfix">
+                                <div class="inner">
+                                {% if item.sub_title %}
+                                    <div class="sub-title">{{ item.sub_title }}</div>
+                                {% endif %}
+                                {% if item.title %}
+                                    <h1>{{ item.title }}</h1>
+                                {% endif %}
+                                {% if item.text %}
+                                    <div class="text">{{ item.text }}</div>
+                                {% endif %}
+                                {% if item.actions %}
+                                    <div class="link-box clearfix">
+                                        {% for action in item.actions %}
+                                        <a href="{{ action.url }}" class="theme-btn btn-style-eight"><span class="btn-title">{{ action.title }}</span></a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                        <div class="inner">
+                            <div class="image-layer" style="background-image: url({{ item.bg_image | relative_url }});"></div>
+                            {% if item.youtube_url %}
+                            <a href="{{ item.youtube_url }}" class="lightbox-image play-btn">
+                                <span class="icon flaticon-media-play-symbol"></span>
+                                <i class="ripple"></i>
+                            </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="scroll-down"><div class="scroll-to-target" data-target="#scroll-section"><span class="icon flaticon-right-arrow"></span></div></div>
+    </div>
+</section>
+<!--End Banner Section -->
+{% endif %}

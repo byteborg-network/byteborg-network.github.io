@@ -1,0 +1,21 @@
+@media only screen and (min-width: 768px) {
+  .main-menu {
+    .navigation {
+      > li {
+        > ul {
+          display: block !important;
+          visibility: hidden;
+          opacity: 0;
+
+          > li {
+            > ul {
+              display: block !important;
+              visibility: hidden;
+              opacity: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

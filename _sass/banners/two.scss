@@ -1,0 +1,154 @@
+.banner-two {
+  position: relative;
+  color: #ffffff;
+
+  .auto-container {
+    max-width: 1350px;
+  }
+
+  .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+  }
+
+  .content-box {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    height: 1000px;
+    z-index: 5;
+
+    .content {
+      position: relative;
+      display: table-cell;
+      vertical-align: middle;
+      padding: 180px 0px 150px;
+    }
+
+    .inner {
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 720px;
+      z-index: 1;
+    }
+
+    .sub-title {
+      position: relative;
+      display: block;
+      font-size: 24px;
+      line-height: 1.5em;
+      font-weight: 700;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      display: block;
+      font-size: 80px;
+      line-height: 1.1em;
+      color: #ffffff;
+      font-weight: 700;
+      margin-bottom: 0px;
+      text-transform: capitalize;
+      font-family: 'Poppins', sans-serif;
+      text-shadow: 0px 10px 15px rgba(0, 0, 0, 0.30);
+    }
+
+    .text {
+      display: block;
+      font-size: 24px;
+      line-height: 1.6em;
+      color: #ffffff;
+      font-weight: 400;
+      margin-top: 25px;
+    }
+
+    .link-box {
+      position: relative;
+      display: block;
+      margin-top: 40px;
+
+      .theme-btn {
+        margin: 0 16px 20px 0px;
+      }
+    }
+
+    .content-image {
+      position: absolute;
+      left: 50%;
+      top: 160px;
+      margin-left: -50px;
+
+      .image {
+        position: relative;
+        display: block;
+        -webkit-animation-name: hvr-bob;
+        animation-name: hvr-bob;
+        -webkit-animation-duration: 1.5s;
+        animation-duration: 1.5s;
+        -webkit-animation-delay: .3s;
+        animation-delay: .3s;
+        -webkit-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;
+      }
+    }
+  }
+}
+
+.about-section-four {
+  .image-column {
+    .image-box {
+      -webkit-animation-name: hvr-bob;
+      animation-name: hvr-bob;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-delay: .3s;
+      animation-delay: .3s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+  }
+}
+
+.testimonial-section-two {
+  .image-column {
+    .image-box {
+      -webkit-animation-name: hvr-bob;
+      animation-name: hvr-bob;
+      -webkit-animation-duration: 1.5s;
+      animation-duration: 1.5s;
+      -webkit-animation-delay: .3s;
+      animation-delay: .3s;
+      -webkit-animation-timing-function: ease-in-out;
+      animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+    }
+  }
+}

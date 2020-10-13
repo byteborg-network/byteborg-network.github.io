@@ -1,0 +1,26 @@
+.services-section-four {
+  position: relative;
+  padding: 120px 0px;
+  background: #f1fcff;
+
+  .sec-title {
+    margin-bottom: 50px;
+  }
+
+  .faded-text {
+    .f-text {
+      span {
+        color: #f1fcff;
+      }
+    }
+  }
+
+  .tab-col {
+    position: relative;
+
+    .inner {
+      position: relative;
+      display: block;
+    }
+  }
+}

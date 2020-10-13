@@ -1,0 +1,132 @@
+.contact-section {
+  position: relative;
+  padding: 120px 0px 90px;
+
+  .sec-title {
+    margin-bottom: 35px;
+
+    h2 {
+      font-size: 64px;
+    }
+  }
+
+  .form-column {
+    position: relative;
+    margin-bottom: 30px;
+
+    .inner {
+      position: relative;
+      display: block;
+    }
+  }
+
+  .default-form {
+    padding-right: 30px;
+
+    .form-group {
+      input[type="text"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="email"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="password"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="tel"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="url"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="file"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input[type="number"] {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      textarea {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      select {
+        padding: 7px 25px 13px;
+        line-height: 30px;
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.10);
+      }
+
+      input {
+        &:focus {
+          border-color: #ff6000;
+        }
+      }
+    }
+  }
+
+  .btn-box {
+    padding-top: 15px;
+  }
+
+  .map-column {
+    position: relative;
+    margin-bottom: 30px;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-top: 50px;
+    }
+  }
+
+  .map-canvas {
+    height: 630px;
+  }
+}
+
+.default-form {
+  .form-group {
+    textarea {
+      &:focus {
+        border-color: #ff6000;
+      }
+    }
+
+    select {
+      &:focus {
+        border-color: #ff6000;
+      }
+    }
+  }
+}

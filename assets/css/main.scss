@@ -1,0 +1,110 @@
+---
+---
+$fa-font-path: "../fonts";
+
+@import "vendors/bootstrap/bootstrap";
+@import "fonts";
+@import "flaticon";
+@import "animate";
+@import "vendors/hover/hover";
+@import "vendors/owl/owl.carousel";
+@import "vendors/owl/owl.theme.default";
+@import "vendors/jquery/fancybox";
+
+@import "reset";
+@import "global";
+@import "scroll-to-top";
+
+@import "search/popup";
+@import "search/results";
+
+@import "nav/mobile-menu";
+
+@import "forms/default";
+@import "forms/select";
+
+@import "headers/main";
+@import "headers/one";
+@import "headers/two";
+@import "headers/three";
+@import "headers/four";
+@import "headers/five";
+
+@import "banners/one";
+@import "banners/two";
+@import "banners/three";
+@import "banners/four";
+@import "banners/five";
+@import "banners/page";
+
+@import "sections/tabs";
+@import "sections/title";
+@import "sections/why-us";
+@import "sections/clients";
+@import "sections/contact";
+@import "sections/map";
+@import "sections/more-details";
+@import "sections/sponsor";
+@import "sections/info-section";
+@import "sections/process";
+@import "sections/pricing";
+@import "sections/project";
+
+@import "sections/about/one";
+@import "sections/about/two";
+@import "sections/about/three";
+@import "sections/about/four";
+
+@import "sections/services/one";
+@import "sections/services/two";
+@import "sections/services/three";
+
+@import "sections/features/default";
+@import "sections/features/one";
+@import "sections/features/two";
+@import "sections/features/three";
+@import "sections/features/four";
+
+@import "sections/portfolio/one";
+@import "sections/portfolio/two";
+@import "sections/portfolio/three";
+@import "sections/portfolio/four";
+
+@import "sections/skills/one";
+@import "sections/skills/two";
+
+@import "sections/testimonials/one";
+@import "sections/testimonials/two";
+
+@import "sections/teams/one";
+@import "sections/teams/two";
+
+@import "sections/call-to/one";
+@import "sections/call-to/two";
+@import "sections/call-to/three";
+
+@import "sections/news/one";
+@import "sections/news/two";
+@import "sections/news/three";
+@import "sections/news/four";
+@import "sections/news/five";
+@import "sections/news/six";
+
+@import "sections/welcome/one";
+
+@import "sections/counter/one";
+@import "sections/counter/two";
+@import "sections/counter/three";
+
+@import "post/pagination";
+@import "post/news-detail";
+@import "post/comment";
+
+@import "sidebar";
+
+@import "footers/one";
+@import "footers/two";
+
+
+@import "bubble-dot";
+@import "roadmap";

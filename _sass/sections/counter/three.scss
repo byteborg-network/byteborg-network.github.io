@@ -1,0 +1,59 @@
+.counter-block-three {
+  position: relative;
+  text-align: center;
+  margin-bottom: 70px;
+
+  .inner-box {
+    position: relative;
+    min-height: 200px;
+  }
+
+  .graph-outer {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    text-align: center;
+
+    .icon-box {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      line-height: 100px;
+      font-size: 50px;
+      color: #ff6000;
+      padding-top: 50px;
+      text-align: center;
+    }
+  }
+
+  .count-box {
+    position: relative;
+    display: block;
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 1em;
+    font-family: 'Gilroy-Bold', sans-serif;
+
+    .sign {
+      font-size: 20px;
+    }
+  }
+
+  .title {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.25em;
+    color: #93c7d8;
+    font-weight: 600;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}

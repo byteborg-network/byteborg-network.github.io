@@ -1,0 +1,113 @@
+.sponsors-section {
+  position: relative;
+  padding: 90px 0px;
+  background: #30b960;
+  background: -webkit-linear-gradient(left, #30b960, #95d156);
+  background: -ms-linear-gradient(left, #30b960, #95d156);
+  background: -moz-linear-gradient(left, #30b960, #95d156);
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1200px;
+    margin-left: -600px;
+    height: 2px;
+    background: #ffffff;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    background: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  }
+
+  .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: #00040a;
+      opacity: 0.90;
+    }
+  }
+}
+
+.sponsors-section.alternate {
+  background: #00040a;
+  padding: 100px 0px;
+
+  &:before {
+    display: none;
+  }
+}
+
+.sponsors-outer {
+  position: relative;
+  text-align: center;
+
+  .auto-container {
+    max-width: 1680px;
+  }
+
+  .slide-item {
+    display: block;
+    text-align: center;
+  }
+
+  .image-box {
+    position: relative;
+    display: inline-block;
+
+    img {
+      max-width: 100%;
+      width: auto;
+      display: inline-block;
+      transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -ms-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      opacity: 1;
+
+      &:hover {
+        opacity: 0.50;
+      }
+    }
+  }
+
+  .owl-dots {
+    position: relative;
+    display: none;
+  }
+
+  .owl-nav {
+    position: relative;
+    display: none;
+  }
+}
+
+.alternate {
+  .sponsors-outer {
+    .image-box {
+      img {
+        opacity: 0.60;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

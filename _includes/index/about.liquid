@@ -1,0 +1,51 @@
+{%- if site.data.about %}
+{%- assign about = site.data.about %}
+<!--About Section-->
+<section class="about-section-three" id="scroll-section">
+    {% for item in about.background_images %}
+        <figure class="floated-image-{{ forloop.index }}"><img src="{{ item.image }}" alt="{{ item.alt }}"></figure>
+    {% endfor %}
+    <div class="auto-container">
+        <div class="row clearfix">
+            <!--Text Column-->
+            <div class="text-column col-lg-10 col-md-12 col-sm-12">
+                <div class="inner">
+                    <div class="sec-title-three left-aligned">
+                        <div class="sub-title">{{ about.sub_title }}</div>
+                        <h2>{{ about.title }}</h2>
+                        <div class="lower-text">{{ about.description }}</div>
+                    </div>
+                    {%- if about.items %}
+                    <div class="text-content">
+                        {%- for item in about.items %}
+                        <div class="text-block">
+                            <div class="title">
+                                <h4>{{ item.title }}</h4>
+                            </div>
+                            <div class="text">{{ item.description }}</div>
+                        </div>
+                        {%- endfor %}
+                    </div>
+                    {%- endif %}
+                </div>
+            </div>
+            {%- if about.featured_images %}
+            <!--Image Column-->
+            <div class="image-column col-lg-2 col-md-12 col-sm-12">
+                <div class="inner clearfix">
+                    {%- for item in about.featured_images %}
+                    <figure class="image paroller"
+                            data-paroller-factor="-0.07"
+                            data-paroller-factor-lg="-0.07"
+                            data-paroller-factor-md="-0.07"
+                            data-paroller-factor-sm="-0.07"
+                            data-paroller-type="foreground"
+                            data-paroller-direction="{{ item.direction }}"><img src="{{ item.image }}" alt="{{ item.alt }}"></figure>
+                    {%- endfor %}
+                </div>
+            </div>
+            {%- endif %}
+        </div>
+    </div>
+</section>
+{%- endif %}

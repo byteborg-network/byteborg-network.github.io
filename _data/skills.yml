@@ -1,0 +1,16 @@
+title: project development
+sub_title: support
+description: At the moment I don´t work full time on protocol, because I still have my day job, but after MVP release, I hope I will be able to raise some funds via token pre-sales
+image: /assets/images/wallet.jpg
+image_alt: Support my work
+sections:
+  - title: Investor
+    description: You can be early investor, by supporting project development with TRX tokens, each investor will be rewarded with byteborg tokens.
+    color: "#ff6262"
+    precentage: 90
+
+  - title: Protocol
+    description: At the moment I´m working on protocol implementation, protocol code will be released in grithub profle after testnet release
+    color: "#39b87b"
+    precentage: 75
+

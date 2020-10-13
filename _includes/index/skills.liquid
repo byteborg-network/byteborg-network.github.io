@@ -1,0 +1,40 @@
+{% if site.data.skills %}
+{% assign skills = site.data.skills %}
+<!--Skills Section-->
+<section class="skills-section">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <!--Text Column-->
+            <div class="text-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner">
+                    <div class="sec-title-three left-aligned">
+                        <div class="sub-title">{{ skills.sub_title }}</div>
+                        <h2>{{ skills.title }}</h2>
+                        <div class="lower-text">{{ skills.description }}</div>
+                    </div>
+                    {% if skills.sections %}
+                    <div class="content">
+                        {% for item in skills.sections %}
+                        <div class="counter-block-two">
+                            <h4>{{ item.title }}</h4>
+                            <div class="text">{{ item.description }}</div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+            {% if skills.image %}
+            <!--Image Column-->
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner">
+                    <figure class="image">
+                        <img src="{{ skills.image }}" alt="{{ skills.image_alt }}">
+                    </figure>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endif %}

@@ -1,0 +1,365 @@
+@keyframes heroShape {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  35% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+  }
+  50% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  65% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes heroShapeTwo {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  25% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-15px, 5px, 0) rotateZ(0.01deg);
+  }
+  35% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-30px, 5px, 0) rotateZ(0.01deg);
+  }
+  45% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-15px, 5px, 0) rotateZ(0.01deg);
+  }
+  55% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  75% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes heroShapeThree {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  35% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(0, 10px, 0) rotateZ(0.01deg);
+  }
+  50% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  65% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -10px, 0) rotateZ(0.01deg);
+  }
+}
+
+@keyframes heroShapeFour {
+  0%, 100% {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  25% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-20px, 5px, 0) rotateZ(0.01deg);
+  }
+  35% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-20px, 5px, 0) rotateZ(0.01deg);
+  }
+  45% {
+    border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+    transform: translate3d(-20px, 10px, 0) rotateZ(0.01deg);
+  }
+  55% {
+    transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+  }
+  75% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    transform: translate3d(0, -5px, 0) rotateZ(0.01deg);
+  }
+}
+
+.bubble-dotted {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+
+  .dotted {
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  .dotted-1 {
+    width: 11px;
+    height: 11px;
+    left: 100px;
+    top: 50%;
+    -webkit-animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #58f106, #23c10e 50%);
+    background: -ms-linear-gradient(0deg, #58f106, #23c10e 50%);
+    background: -moz-linear-gradient(0deg, #58f106, #23c10e 50%);
+  }
+
+  .dotted-2 {
+    width: 7px;
+    height: 7px;
+    left: 240px;
+    top: 40%;
+    -webkit-animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #862ff1, #163fae 50%);
+    background: -ms-linear-gradient(0deg, #862ff1, #163fae 50%);
+    background: -moz-linear-gradient(0deg, #862ff1, #163fae 50%);
+  }
+
+  .dotted-3 {
+    width: 11px;
+    height: 11px;
+    left: 460px;
+    top: 30%;
+    -webkit-animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #ff5d06, #ffc806 50%);
+    background: -ms-linear-gradient(0deg, #ff5d06, #ffc806 50%);
+    background: -moz-linear-gradient(0deg, #ff5d06, #ffc806 50%);
+  }
+
+  .dotted-4 {
+    width: 16px;
+    height: 16px;
+    left: 430px;
+    top: 90%;
+    -webkit-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #d406b7, #fc1a66 50%);
+    background: -ms-linear-gradient(0deg, #d406b7, #fc1a66 50%);
+    background: -moz-linear-gradient(0deg, #d406b7, #fc1a66 50%);
+  }
+
+  .dotted-5 {
+    width: 6px;
+    height: 6px;
+    left: 50%;
+    top: 50%;
+    -webkit-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #fe5f12, #fec412 50%);
+    background: -ms-linear-gradient(0deg, #fe5f12, #fec412 50%);
+    background: -moz-linear-gradient(0deg, #fe5f12, #fec412 50%);
+  }
+
+  .dotted-6 {
+    width: 9px;
+    height: 9px;
+    left: 70%;
+    top: 230px;
+    -webkit-animation: animateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 11s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #d622bf, #fb196a 50%);
+    background: -ms-linear-gradient(0deg, #d622bf, #fb196a 50%);
+    background: -moz-linear-gradient(0deg, #d622bf, #fb196a 50%);
+  }
+
+  .dotted-7 {
+    width: 6px;
+    height: 6px;
+    left: 65%;
+    top: 30%;
+    -webkit-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 10s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #60f112, #30c719 50%);
+    background: -ms-linear-gradient(0deg, #60f112, #30c719 50%);
+    background: -moz-linear-gradient(0deg, #60f112, #30c719 50%);
+  }
+
+  .dotted-8 {
+    width: 6px;
+    height: 6px;
+    left: 85%;
+    top: 35%;
+    -webkit-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    animation: animateBubble 12s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #fe5f12, #fec412 50%);
+    background: -ms-linear-gradient(0deg, #fe5f12, #fec412 50%);
+    background: -moz-linear-gradient(0deg, #fe5f12, #fec412 50%);
+  }
+
+  .dotted-9 {
+    width: 13px;
+    height: 13px;
+    left: 90%;
+    top: 40%;
+    -webkit-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    animation: animateBubble 19s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #842af1, #0f40aa 50%);
+    background: -ms-linear-gradient(0deg, #842af1, #0f40aa 50%);
+    background: -moz-linear-gradient(0deg, #842af1, #0f40aa 50%);
+  }
+
+  .dotted-10 {
+    width: 12px;
+    height: 12px;
+    left: 80%;
+    top: 70%;
+    -webkit-animation: animateBubble 16s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    -moz-animation: animateBubble 16s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    animation: animateBubble 16s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background: -webkit-linear-gradient(0deg, #58f106, #23c10f 50%);
+    background: -ms-linear-gradient(0deg, #58f106, #23c10f 50%);
+    background: -moz-linear-gradient(0deg, #58f106, #23c10f 50%);
+  }
+}
+
+.hero-shape-one {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  width: 400px;
+  height: 400px;
+  background: #5f94ed;
+  background: -webkit-linear-gradient(to right, #68cf8e, #caea53);
+  background: linear-gradient(to right, #68cf8e, #caea53);
+  border-radius: 65% 30% 40% 30% / 30% 30% 60% 10%;
+  will-change: border-radius, transform, opacity;
+  animation: heroShape 6s linear infinite;
+  display: none;
+  z-index: -1;
+  opacity: 0.20;
+}
+
+.hero-shape-two {
+  position: absolute;
+  left: 110px;
+  top: 100px;
+  width: 200px;
+  height: 200px;
+  background: #bd58a0;
+  border-radius: 55% 35% 48% 30% / 40% 40% 70% 6%;
+  will-change: border-radius, transform, opacity;
+  animation: heroShapeTwo 3s linear infinite;
+  display: block;
+  z-index: -1;
+  opacity: 0.20;
+}
+
+.hero-shape-three {
+  position: absolute;
+  right: 70px;
+  top: 110px;
+  width: 250px;
+  height: 250px;
+  background: #ff6300;
+  border-radius: 55% 35% 48% 30% / 40% 40% 70% 6%;
+  will-change: border-radius, transform, opacity;
+  animation: heroShapeThree 5s linear infinite;
+  display: block;
+  z-index: -1;
+  opacity: 0.20;
+}
+
+.hero-shape-four {
+  position: absolute;
+  right: -70px;
+  top: 10px;
+  width: 500px;
+  height: 500px;
+  background: #e9b660;
+  border-radius: 55% 35% 48% 30% / 40% 40% 70% 6%;
+  will-change: border-radius, transform, opacity;
+  animation: heroShapeFour 3s linear infinite;
+  display: block;
+  z-index: -1;
+  opacity: 0.20;
+}
+
+.hero-shape-five {
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  margin: -100px 0px 0px -100px;
+  width: 400px;
+  height: 400px;
+  background: #63ce91;
+  border-radius: 55% 35% 48% 30% / 40% 40% 70% 6%;
+  will-change: border-radius, transform, opacity;
+  animation: heroShape 5s linear infinite;
+  display: block;
+  z-index: -1;
+  opacity: 0.10;
+}
+
+.dotted-bubble-01 {
+  position: absolute;
+  display: block;
+  width: 90px;
+  height: 70px;
+  left: 70%;
+  top: 50%;
+  border-radius: 50%;
+  -webkit-animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 15s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  background: -webkit-linear-gradient(0deg, #65ce90, #c2e858 50%);
+  background: -ms-linear-gradient(0deg, #65ce90, #c2e858 50%);
+  background: -moz-linear-gradient(0deg, #65ce90, #c2e858 50%);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.30);
+  z-index: 1;
+}
+
+.dotted-bubble-02 {
+  position: absolute;
+  display: block;
+  width: 150px;
+  height: 110px;
+  left: 50%;
+  top: 40%;
+  border-radius: 50%;
+  -webkit-animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  animation: animateBubble 10s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  background: -webkit-linear-gradient(0deg, #6b29ca, #5e9aef 50%);
+  background: -ms-linear-gradient(0deg, #6b29ca, #5e9aef 50%);
+  background: -moz-linear-gradient(0deg, #6b29ca, #5e9aef 50%);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.30);
+  z-index: 1;
+}
+
+.dotted-bubble-03 {
+  position: absolute;
+  display: block;
+  width: 70px;
+  height: 50px;
+  left: 30%;
+  top: 30%;
+  border-radius: 50%;
+  -webkit-animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -moz-animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  animation: animateBubble 18s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  background: -webkit-linear-gradient(0deg, #cf7790, #eaa477 50%);
+  background: -ms-linear-gradient(0deg, #cf7790, #eaa477 50%);
+  background: -moz-linear-gradient(0deg, #cf7790, #eaa477 50%);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.30);
+  z-index: 1;
+}

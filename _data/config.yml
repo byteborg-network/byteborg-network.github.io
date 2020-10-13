@@ -1,0 +1,65 @@
+# General Settings
+google_fonts: https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i|Karla:400,400i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&amp;display=swap
+perloader: true
+search: true
+
+meta:
+  title: Byteborg - open source & non-custodial protocol enabling the creation of money markets
+
+title: byteborg network
+email: contact@byteborg.network
+url: "https://byteborg-network"
+
+# google_tag_manager:
+
+logo_url: "/assets/images/logo.svg"
+logo_url_2: "/assets/images/logo.svg"
+twitter_handle: ByteborgN
+twitter_url: "https://twitter.com/ByteborgN"
+# facebook_url: "https://facebook.com/ByteborgN"
+# pinterest_url: "https://pinterest.com/ByteborgN"
+# instagram_url: "https://instagram.com/ByteborgN"
+youtube_url: "https://youtube.com/ByteborgN"
+# dribbble_url: "https://dribble.com/ByteborgN"
+# behance_url: "https://behance.com/ByteborgN"
+github_url: "https://github.com/byteborg-network"
+
+
+blog_title: blog
+blog_sub_title: News Feeds
+
+
+footer:
+  posts_enabled: false
+  pages_enabled: false
+  pages_title: Pages
+  news_title: News Feeds
+  newsletter:
+    enabled: false
+    title: Newsletter
+    icon: flaticon-envelope
+    action: https://api.byteborg.network/v1/newsletter/subscribe
+    submit: Subscribe Now
+    placeholder: Enter email address
+    get_link: "#"
+    get_link_title: Get every single offers
+  pages:
+    - url: /about
+      title: About
+    - url: /services
+      title: Services
+    - url: /portfolio
+      title: Portfolio
+    - url: /contact
+      title: Contact
+    - url: /blog
+      title: Blog
+
+    - url: /service
+      title: Features
+    - url: /blog
+      title: Our Story
+    - url: /team
+      title: Our Team
+    - url: /portfolio
+      title: Projects

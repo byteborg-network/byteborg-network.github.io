@@ -1,0 +1,1053 @@
+$fla-prefix: "flaticon" !default;
+
+@font-face {
+  font-family: 'Flaticon';
+  src: url('#{$fa-font-path}/Flaticon.eot');
+  src: url('#{$fa-font-path}/Flaticon.eot#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/Flaticon.ttf') format('truetype'),
+  url('#{$fa-font-path}/Flaticon.woff2') format('woff2'),
+  url('#{$fa-font-path}/Flaticon.woff') format('woff'),
+  url('#{$fa-font-path}/Flaticon.svg#Flaticon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("#{$fa-font-path}/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="#{$fla-prefix}-"]:before, [class*=" #{$fla-prefix}-"]:before,
+[class^="#{$fla-prefix}-"]:after, [class*=" #{$fla-prefix}-"]:after {
+  font-family: 'Flaticon' !important;
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$fla-prefix}-cell-phone:before {
+  content: "\f100";
+}
+
+.#{$fla-prefix}-straight-quotes:before {
+  content: "\f101";
+}
+
+.#{$fla-prefix}-blocks-with-angled-cuts:before {
+  content: "\f102";
+}
+
+.#{$fla-prefix}-business:before {
+  content: "\f103";
+}
+
+.#{$fla-prefix}-smartphone-call:before {
+  content: "\f104";
+}
+
+.#{$fla-prefix}-e-mail-envelope:before {
+  content: "\f105";
+}
+
+.#{$fla-prefix}-down-arrow:before {
+  content: "\f106";
+}
+
+.#{$fla-prefix}-up-arrow-angle:before {
+  content: "\f107";
+}
+
+.#{$fla-prefix}-right-arrow-angle:before {
+  content: "\f108";
+}
+
+.#{$fla-prefix}-telephone:before {
+  content: "\f109";
+}
+
+.#{$fla-prefix}-three:before {
+  content: "\f10a";
+}
+
+.#{$fla-prefix}-symbol:before {
+  content: "\f10b";
+}
+
+.#{$fla-prefix}-line:before {
+  content: "\f10c";
+}
+
+.#{$fla-prefix}-sign:before {
+  content: "\f10d";
+}
+
+.#{$fla-prefix}-delete:before {
+  content: "\f10e";
+}
+
+.#{$fla-prefix}-new-email-outline:before {
+  content: "\f10f";
+}
+
+.#{$fla-prefix}-check-symbol:before {
+  content: "\f110";
+}
+
+.#{$fla-prefix}-round:before {
+  content: "\f111";
+}
+
+.#{$fla-prefix}-delete-cross:before {
+  content: "\f112";
+}
+
+.#{$fla-prefix}-location:before {
+  content: "\f113";
+}
+
+.#{$fla-prefix}-clipboard-with-a-list:before {
+  content: "\f114";
+}
+
+.#{$fla-prefix}-shelter:before {
+  content: "\f115";
+}
+
+.#{$fla-prefix}-technology:before {
+  content: "\f116";
+}
+
+.#{$fla-prefix}-fax-with-phone:before {
+  content: "\f117";
+}
+
+.#{$fla-prefix}-boat-anchor:before {
+  content: "\f118";
+}
+
+.#{$fla-prefix}-photo:before {
+  content: "\f119";
+}
+
+.#{$fla-prefix}-people:before {
+  content: "\f11a";
+}
+
+.#{$fla-prefix}-support:before {
+  content: "\f11b";
+}
+
+.#{$fla-prefix}-shape:before {
+  content: "\f11c";
+}
+
+.#{$fla-prefix}-cogwheel:before {
+  content: "\f11d";
+}
+
+.#{$fla-prefix}-arrows:before {
+  content: "\f11e";
+}
+
+.#{$fla-prefix}-play-button:before {
+  content: "\f11f";
+}
+
+.#{$fla-prefix}-home:before {
+  content: "\f120";
+}
+
+.#{$fla-prefix}-cross:before {
+  content: "\f121";
+}
+
+.#{$fla-prefix}-line-1:before {
+  content: "\f122";
+}
+
+.#{$fla-prefix}-right-arrow:before {
+  content: "\f123";
+}
+
+.#{$fla-prefix}-arrows-1:before {
+  content: "\f124";
+}
+
+.#{$fla-prefix}-time:before {
+  content: "\f125";
+}
+
+.#{$fla-prefix}-nature:before {
+  content: "\f126";
+}
+
+.#{$fla-prefix}-email:before {
+  content: "\f127";
+}
+
+.#{$fla-prefix}-letter:before {
+  content: "\f128";
+}
+
+.#{$fla-prefix}-multimedia:before {
+  content: "\f129";
+}
+
+.#{$fla-prefix}-search:before {
+  content: "\f12a";
+}
+
+.#{$fla-prefix}-correct:before {
+  content: "\f12b";
+}
+
+.#{$fla-prefix}-video-camera:before {
+  content: "\f12c";
+}
+
+.#{$fla-prefix}-stats:before {
+  content: "\f12d";
+}
+
+.#{$fla-prefix}-arrows-2:before {
+  content: "\f12e";
+}
+
+.#{$fla-prefix}-arrows-3:before {
+  content: "\f12f";
+}
+
+.#{$fla-prefix}-arrows-4:before {
+  content: "\f130";
+}
+
+.#{$fla-prefix}-arrows-5:before {
+  content: "\f131";
+}
+
+.#{$fla-prefix}-checked:before {
+  content: "\f132";
+}
+
+.#{$fla-prefix}-line-2:before {
+  content: "\f133";
+}
+
+.#{$fla-prefix}-truck:before {
+  content: "\f134";
+}
+
+.#{$fla-prefix}-coin:before {
+  content: "\f135";
+}
+
+.#{$fla-prefix}-headphones:before {
+  content: "\f136";
+}
+
+.#{$fla-prefix}-shopping-bag:before {
+  content: "\f137";
+}
+
+.#{$fla-prefix}-money:before {
+  content: "\f138";
+}
+
+.#{$fla-prefix}-garbage:before {
+  content: "\f139";
+}
+
+.#{$fla-prefix}-placeholder:before {
+  content: "\f13a";
+}
+
+.#{$fla-prefix}-heart:before {
+  content: "\f13b";
+}
+
+.#{$fla-prefix}-settings:before {
+  content: "\f13c";
+}
+
+.#{$fla-prefix}-link:before {
+  content: "\f13d";
+}
+
+.#{$fla-prefix}-printer:before {
+  content: "\f13e";
+}
+
+.#{$fla-prefix}-house:before {
+  content: "\f13f";
+}
+
+.#{$fla-prefix}-phone-call:before {
+  content: "\f140";
+}
+
+.#{$fla-prefix}-shopping-bag-1:before {
+  content: "\f141";
+}
+
+.#{$fla-prefix}-envelope:before {
+  content: "\f142";
+}
+
+.#{$fla-prefix}-bars:before {
+  content: "\f143";
+}
+
+.#{$fla-prefix}-remove:before {
+  content: "\f144";
+}
+
+.#{$fla-prefix}-time-1:before {
+  content: "\f145";
+}
+
+.#{$fla-prefix}-check:before {
+  content: "\f146";
+}
+
+.#{$fla-prefix}-link-1:before {
+  content: "\f147";
+}
+
+.#{$fla-prefix}-check-1:before {
+  content: "\f148";
+}
+
+.#{$fla-prefix}-add:before {
+  content: "\f149";
+}
+
+.#{$fla-prefix}-menu:before {
+  content: "\f14a";
+}
+
+.#{$fla-prefix}-anchor:before {
+  content: "\f14b";
+}
+
+.#{$fla-prefix}-menu-2:before {
+  content: "\f14c";
+}
+
+.#{$fla-prefix}-comment:before {
+  content: "\f14d";
+}
+
+.#{$fla-prefix}-arrows-6:before {
+  content: "\f14e";
+}
+
+.#{$fla-prefix}-calendar-1:before {
+  content: "\f14f";
+}
+
+.#{$fla-prefix}-success:before {
+  content: "\f150";
+}
+
+.#{$fla-prefix}-add-1:before {
+  content: "\f151";
+}
+
+.#{$fla-prefix}-interface:before {
+  content: "\f152";
+}
+
+.#{$fla-prefix}-up-arrow:before {
+  content: "\f153";
+}
+
+.#{$fla-prefix}-arrows-7:before {
+  content: "\f154";
+}
+
+.#{$fla-prefix}-arrows-8:before {
+  content: "\f155";
+}
+
+.#{$fla-prefix}-arrows-9:before {
+  content: "\f156";
+}
+
+.#{$fla-prefix}-close:before {
+  content: "\f157";
+}
+
+.#{$fla-prefix}-user:before {
+  content: "\f158";
+}
+
+.#{$fla-prefix}-bar-chart:before {
+  content: "\f159";
+}
+
+.#{$fla-prefix}-speech-bubble:before {
+  content: "\f15a";
+}
+
+.#{$fla-prefix}-placeholder-1:before {
+  content: "\f15b";
+}
+
+.#{$fla-prefix}-technology-1:before {
+  content: "\f15c";
+}
+
+.#{$fla-prefix}-technology-2:before {
+  content: "\f15d";
+}
+
+.#{$fla-prefix}-link-2:before {
+  content: "\f15e";
+}
+
+.#{$fla-prefix}-trophy:before {
+  content: "\f15f";
+}
+
+.#{$fla-prefix}-layers:before {
+  content: "\f160";
+}
+
+.#{$fla-prefix}-home-1:before {
+  content: "\f161";
+}
+
+.#{$fla-prefix}-interface-1:before {
+  content: "\f162";
+}
+
+.#{$fla-prefix}-bar-chart-1:before {
+  content: "\f163";
+}
+
+.#{$fla-prefix}-message:before {
+  content: "\f164";
+}
+
+.#{$fla-prefix}-maps-and-flags:before {
+  content: "\f165";
+}
+
+.#{$fla-prefix}-delete-1:before {
+  content: "\f166";
+}
+
+.#{$fla-prefix}-cancel:before {
+  content: "\f167";
+}
+
+.#{$fla-prefix}-line-chart:before {
+  content: "\f168";
+}
+
+.#{$fla-prefix}-menu-3:before {
+  content: "\f169";
+}
+
+.#{$fla-prefix}-like:before {
+  content: "\f16a";
+}
+
+.#{$fla-prefix}-briefcase:before {
+  content: "\f16b";
+}
+
+.#{$fla-prefix}-agenda:before {
+  content: "\f16c";
+}
+
+.#{$fla-prefix}-technology-3:before {
+  content: "\f16d";
+}
+
+.#{$fla-prefix}-arrows-10:before {
+  content: "\f16e";
+}
+
+.#{$fla-prefix}-menu-4:before {
+  content: "\f16f";
+}
+
+.#{$fla-prefix}-photo-1:before {
+  content: "\f170";
+}
+
+.#{$fla-prefix}-settings-1:before {
+  content: "\f171";
+}
+
+.#{$fla-prefix}-calendar-2:before {
+  content: "\f172";
+}
+
+.#{$fla-prefix}-clipboard:before {
+  content: "\f173";
+}
+
+.#{$fla-prefix}-heart-1:before {
+  content: "\f174";
+}
+
+.#{$fla-prefix}-logout:before {
+  content: "\f175";
+}
+
+.#{$fla-prefix}-location-pin:before {
+  content: "\f176";
+}
+
+.#{$fla-prefix}-media-play-symbol:before {
+  content: "\f177";
+}
+
+.#{$fla-prefix}-user-1:before {
+  content: "\f178";
+}
+
+.#{$fla-prefix}-download-arrow:before {
+  content: "\f179";
+}
+
+.#{$fla-prefix}-quality:before {
+  content: "\f17a";
+}
+
+.#{$fla-prefix}-quote:before {
+  content: "\f17b";
+}
+
+.#{$fla-prefix}-right-quote:before {
+  content: "\f17c";
+}
+
+.#{$fla-prefix}-hand-shake:before {
+  content: "\f17d";
+}
+
+.#{$fla-prefix}-suitcase:before {
+  content: "\f17e";
+}
+
+.#{$fla-prefix}-pie-chart:before {
+  content: "\f17f";
+}
+
+.#{$fla-prefix}-shield:before {
+  content: "\f180";
+}
+
+.#{$fla-prefix}-security:before {
+  content: "\f181";
+}
+
+.#{$fla-prefix}-save:before {
+  content: "\f182";
+}
+
+.#{$fla-prefix}-settings-2:before {
+  content: "\f183";
+}
+
+.#{$fla-prefix}-chat:before {
+  content: "\f184";
+}
+
+.#{$fla-prefix}-chat-1:before {
+  content: "\f185";
+}
+
+.#{$fla-prefix}-placeholder-2:before {
+  content: "\f186";
+}
+
+.#{$fla-prefix}-smartphone:before {
+  content: "\f187";
+}
+
+.#{$fla-prefix}-mail:before {
+  content: "\f188";
+}
+
+.#{$fla-prefix}-next:before {
+  content: "\f189";
+}
+
+.#{$fla-prefix}-back:before {
+  content: "\f18a";
+}
+
+.#{$fla-prefix}-next-1:before {
+  content: "\f18b";
+}
+
+.#{$fla-prefix}-arrow:before {
+  content: "\f18c";
+}
+
+.#{$fla-prefix}-telephone-1:before {
+  content: "\f18d";
+}
+
+.#{$fla-prefix}-smartphone-1:before {
+  content: "\f18e";
+}
+
+.#{$fla-prefix}-placeholder-3:before {
+  content: "\f18f";
+}
+
+.#{$fla-prefix}-placeholder-4:before {
+  content: "\f190";
+}
+
+.#{$fla-prefix}-menu-5:before {
+  content: "\f191";
+}
+
+.#{$fla-prefix}-menu-7:before {
+  content: "\f192";
+}
+
+.#{$fla-prefix}-menu-8:before {
+  content: "\f193";
+}
+
+.#{$fla-prefix}-menu-9:before {
+  content: "\f194";
+}
+
+.#{$fla-prefix}-menu-10:before {
+  content: "\f195";
+}
+
+.#{$fla-prefix}-targeting-cross:before {
+  content: "\f196";
+}
+
+.#{$fla-prefix}-letter-x:before {
+  content: "\f197";
+}
+
+.#{$fla-prefix}-magnifying-glass:before {
+  content: "\f198";
+}
+
+.#{$fla-prefix}-photo-camera:before {
+  content: "\f199";
+}
+
+.#{$fla-prefix}-link-3:before {
+  content: "\f19a";
+}
+
+.#{$fla-prefix}-chat-comment-oval-speech-bubble-with-text-lines:before {
+  content: "\f19b";
+}
+
+.#{$fla-prefix}-expand:before {
+  content: "\f19c";
+}
+
+.#{$fla-prefix}-share:before {
+  content: "\f19d";
+}
+
+.#{$fla-prefix}-worldwide:before {
+  content: "\f19e";
+}
+
+.#{$fla-prefix}-loupe:before {
+  content: "\f19f";
+}
+
+.#{$fla-prefix}-loupe-1:before {
+  content: "\f1a0";
+}
+
+.#{$fla-prefix}-magnifying-glass-1:before {
+  content: "\f1a1";
+}
+
+.#{$fla-prefix}-left-arrow:before {
+  content: "\f1a2";
+}
+
+.#{$fla-prefix}-left:before {
+  content: "\f1a3";
+}
+
+.#{$fla-prefix}-left-arrow-1:before {
+  content: "\f1a4";
+}
+
+.#{$fla-prefix}-right:before {
+  content: "\f1a5";
+}
+
+.#{$fla-prefix}-right-1:before {
+  content: "\f1a6";
+}
+
+.#{$fla-prefix}-right-arrow-1:before {
+  content: "\f1a7";
+}
+
+.#{$fla-prefix}-right-arrow-2:before {
+  content: "\f1a8";
+}
+
+.#{$fla-prefix}-recycling-truck:before {
+  content: "\f1a9";
+}
+
+.#{$fla-prefix}-left-quote:before {
+  content: "\f1aa";
+}
+
+.#{$fla-prefix}-left-quote-1:before {
+  content: "\f1ab";
+}
+
+.#{$fla-prefix}-sheriff-badge:before {
+  content: "\f1ac";
+}
+
+.#{$fla-prefix}-play-button-1:before {
+  content: "\f1ad";
+}
+
+.#{$fla-prefix}-play-button-2:before {
+  content: "\f1ae";
+}
+
+.#{$fla-prefix}-chat-2:before {
+  content: "\f1af";
+}
+
+.#{$fla-prefix}-link-4:before {
+  content: "\f1b0";
+}
+
+.#{$fla-prefix}-zoom-in:before {
+  content: "\f1b1";
+}
+
+.#{$fla-prefix}-zoom-out:before {
+  content: "\f1b2";
+}
+
+.#{$fla-prefix}-user-2:before {
+  content: "\f1b3";
+}
+
+.#{$fla-prefix}-contact:before {
+  content: "\f1b4";
+}
+
+.#{$fla-prefix}-circular-clock:before {
+  content: "\f1b5";
+}
+
+.#{$fla-prefix}-city-hall:before {
+  content: "\f1b6";
+}
+
+.#{$fla-prefix}-postcard:before {
+  content: "\f1b7";
+}
+
+.#{$fla-prefix}-fax:before {
+  content: "\f1b8";
+}
+
+.#{$fla-prefix}-telephone-2:before {
+  content: "\f1b9";
+}
+
+.#{$fla-prefix}-right-2:before {
+  content: "\f1ba";
+}
+
+.#{$fla-prefix}-arrow-1:before {
+  content: "\f1bb";
+}
+
+.#{$fla-prefix}-left-1:before {
+  content: "\f1bc";
+}
+
+.#{$fla-prefix}-mall:before {
+  content: "\f1bd";
+}
+
+.#{$fla-prefix}-city-hall-1:before {
+  content: "\f1be";
+}
+
+.#{$fla-prefix}-menu-13:before {
+  content: "\f1bf";
+}
+
+.#{$fla-prefix}-loupe-2:before {
+  content: "\f1c0";
+}
+
+.#{$fla-prefix}-magnifying-glass-2:before {
+  content: "\f1c1";
+}
+
+.#{$fla-prefix}-shopping-cart:before {
+  content: "\f1c2";
+}
+
+.#{$fla-prefix}-vector:before {
+  content: "\f1c3";
+}
+
+.#{$fla-prefix}-vector-1:before {
+  content: "\f1c4";
+}
+
+.#{$fla-prefix}-path:before {
+  content: "\f1c5";
+}
+
+.#{$fla-prefix}-data:before {
+  content: "\f1c6";
+}
+
+.#{$fla-prefix}-computer-graphic:before {
+  content: "\f1c7";
+}
+
+.#{$fla-prefix}-web-design:before {
+  content: "\f1c8";
+}
+
+.#{$fla-prefix}-bullhorn:before {
+  content: "\f1c9";
+}
+
+.#{$fla-prefix}-seo:before {
+  content: "\f1ca";
+}
+
+.#{$fla-prefix}-digital-marketing:before {
+  content: "\f1cb";
+}
+
+.#{$fla-prefix}-play-button-3:before {
+  content: "\f1cc";
+}
+
+.#{$fla-prefix}-ui:before {
+  content: "\f1cd";
+}
+
+.#{$fla-prefix}-display:before {
+  content: "\f1ce";
+}
+
+.#{$fla-prefix}-paint-brush:before {
+  content: "\f1cf";
+}
+
+.#{$fla-prefix}-paint-brush-1:before {
+  content: "\f1d0";
+}
+
+.#{$fla-prefix}-art:before {
+  content: "\f1d1";
+}
+
+.#{$fla-prefix}-palette:before {
+  content: "\f1d2";
+}
+
+.#{$fla-prefix}-left-arrow-2:before {
+  content: "\f1d3";
+}
+
+.#{$fla-prefix}-download:before {
+  content: "\f1d4";
+}
+
+.#{$fla-prefix}-send:before {
+  content: "\f1d5";
+}
+
+.#{$fla-prefix}-case:before {
+  content: "\f1d6";
+}
+
+.#{$fla-prefix}-calendar-3:before {
+  content: "\f1d7";
+}
+
+.#{$fla-prefix}-calendar-4:before {
+  content: "\f1d8";
+}
+
+.#{$fla-prefix}-place:before {
+  content: "\f1d9";
+}
+
+.#{$fla-prefix}-arrow-2:before {
+  content: "\f1da";
+}
+
+.#{$fla-prefix}-share-1:before {
+  content: "\f1db";
+}
+
+.#{$fla-prefix}-envelope-1:before {
+  content: "\f1dc";
+}
+
+.#{$fla-prefix}-email-1:before {
+  content: "\f1dd";
+}
+
+.#{$fla-prefix}-mail-1:before {
+  content: "\f1de";
+}
+
+.#{$fla-prefix}-call:before {
+  content: "\f1df";
+}
+
+.#{$fla-prefix}-phone:before {
+  content: "\f1e0";
+}
+
+.#{$fla-prefix}-wizard:before {
+  content: "\f1e1";
+}
+
+.#{$fla-prefix}-wizard-1:before {
+  content: "\f1e2";
+}
+
+.#{$fla-prefix}-star:before {
+  content: "\f1e3";
+}
+
+.#{$fla-prefix}-gear:before {
+  content: "\f1e4";
+}
+
+.#{$fla-prefix}-settings-3:before {
+  content: "\f1e5";
+}
+
+.#{$fla-prefix}-worldwide-1:before {
+  content: "\f1e6";
+}
+
+.#{$fla-prefix}-global:before {
+  content: "\f1e7";
+}
+
+.#{$fla-prefix}-user-3:before {
+  content: "\f1e8";
+}
+
+.#{$fla-prefix}-group:before {
+  content: "\f1e9";
+}
+
+.#{$fla-prefix}-edit:before {
+  content: "\f1ea";
+}
+
+.#{$fla-prefix}-pen:before {
+  content: "\f1eb";
+}
+
+.#{$fla-prefix}-tick:before {
+  content: "\f1ec";
+}
+
+.#{$fla-prefix}-tick-1:before {
+  content: "\f1ed";
+}
+
+.#{$fla-prefix}-shopping-bag-2:before {
+  content: "\f1ee";
+}
+
+.#{$fla-prefix}-console:before {
+  content: "\f1ef";
+}
+
+.#{$fla-prefix}-confirmation:before {
+  content: "\f1f0";
+}
+
+.#{$fla-prefix}-headphones-1:before {
+  content: "\f1f1";
+}
+
+.#{$fla-prefix}-headphones-2:before {
+  content: "\f1f2";
+}
+
+.#{$fla-prefix}-game-controller:before {
+  content: "\f1f3";
+}
+
+.#{$fla-prefix}-avatar:before {
+  content: "\f1f4";
+}
+
+.#{$fla-prefix}-search-1:before {
+  content: "\f1f5";
+}
+
+.#{$fla-prefix}-consultation:before {
+  content: "\f1f6";
+}
+
+.#{$fla-prefix}-calendar:before {
+  content: "\f1f7";
+}
+
+.#{$fla-prefix}-joystick:before {
+  content: "\f1f8";
+}
+
+.#{$fla-prefix}-consulting:before {
+  content: "\f1f9";
+}
+
+.#{$fla-prefix}-copywriting:before {
+  content: "\f1fa";
+}
+
+.#{$fla-prefix}-menu-6:before {
+  content: "\f1fb";
+}
+
+.#{$fla-prefix}-menu-11:before {
+  content: "\f1fc";
+}
+
+.#{$fla-prefix}-menu-12:before {
+  content: "\f1fd";
+}
+
+.#{$fla-prefix}-menu-1:before {
+  content: "\f1fe";
+}

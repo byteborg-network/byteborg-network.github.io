@@ -1,0 +1,531 @@
+@media only screen and (max-width: 991px) {
+  .main-header {
+    .nav-outer {
+      .main-menu {
+        display: none !important;
+      }
+    }
+  }
+  .sticky-header {
+    display: none !important;
+  }
+  .nav-outer {
+    .mobile-nav-toggler {
+      display: block;
+      margin-right: 0px;
+      margin-top: 20px;
+    }
+  }
+  .home-light-style {
+    .info-section {
+      .faded-text.style-two {
+        .f-text {
+          span {
+            font-size: 100px;
+          }
+        }
+      }
+    }
+  }
+  .services-section-two {
+    .faded-text.style-two {
+      .f-text {
+        span {
+          font-size: 100px;
+        }
+      }
+    }
+
+    padding: 80px 0px;
+  }
+  .faded-text {
+    .f-text {
+      span {
+        font-size: 100px;
+      }
+    }
+  }
+  .about-section {
+    .text-column {
+      .inner {
+        padding-right: 0px;
+        top: 0px;
+        padding-bottom: 70px;
+      }
+    }
+
+    padding-bottom: 90px;
+
+    .image-column {
+      .image {
+        top: 0px;
+      }
+
+      .inner {
+        padding-left: 0px;
+      }
+    }
+  }
+  .sec-title {
+    h2 {
+      font-size: 48px;
+    }
+  }
+  .portfolio-section {
+    padding-top: 80px;
+  }
+  .why-choose-section {
+    .text-column {
+      order: inherit;
+    }
+
+    padding-top: 80px;
+  }
+  .testimonial-block {
+    .content {
+      padding: 0px;
+      text-align: center;
+
+      .image {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 45px;
+      }
+
+      .text {
+        font-size: 24px;
+      }
+    }
+  }
+  .header-style-one {
+    .nav-content {
+      float: right;
+      width: auto;
+    }
+  }
+  .header-style-two {
+    .nav-outer {
+      .mobile-nav-toggler {
+        margin-top: 10px;
+        margin-right: 0px;
+        margin-top: 10px;
+        margin-right: 0px;
+      }
+    }
+
+    .nav-content {
+      float: right;
+      width: auto;
+      margin-top: 10px;
+    }
+
+    top: 10px;
+  }
+  .banner-two {
+    .content-box {
+      .content {
+        width: 100%;
+        padding-top: 210px;
+        padding-bottom: 60px;
+      }
+
+      .content-image {
+        position: relative;
+        left: auto;
+        top: 0px;
+      }
+    }
+  }
+  .banner-section.banner-two {
+    padding-bottom: 95px;
+  }
+  .features-section {
+    padding: 90px 0px 90px;
+  }
+  .about-section-two {
+    .counter-column.last {
+      order: 2;
+    }
+
+    .image-column {
+      order: 3;
+    }
+
+    .counter-column {
+      .inner {
+        padding: 0px;
+      }
+    }
+
+    padding: 80px 0px 50px;
+  }
+  .featured-section {
+    .text-column {
+      padding-bottom: 40px;
+    }
+
+    padding: 80px 0px 80px;
+  }
+  .call-to-two {
+    .images {
+      .image {
+        &:nth-child(3) {
+          top: 25px;
+        }
+
+        &:nth-child(1) {
+          top: 25px;
+        }
+      }
+    }
+
+    .inner {
+      padding: 80px 0px 80px;
+    }
+  }
+  .featured-section-two {
+    .image-column {
+      .inner {
+        text-align: center;
+      }
+    }
+
+    padding: 90px 0px 40px;
+  }
+  .banner-three {
+    .content-box {
+      .content {
+        display: block;
+        padding-top: 200px;
+        padding-bottom: 100px;
+      }
+
+      height: auto;
+
+      .inner {
+        padding-right: 0px;
+      }
+    }
+
+    .image-column {
+      .image-layer {
+        position: relative;
+        height: 400px;
+      }
+    }
+
+    .banner-carousel {
+      .owl-dots {
+        right: 20px;
+        bottom: 20px;
+      }
+    }
+  }
+  .banner-four {
+    .content-box {
+      height: auto;
+
+      .inner {
+        max-width: 100%;
+      }
+
+      .content {
+        display: block;
+        padding: 250px 0px 150px;
+      }
+    }
+
+    .video-link {
+      position: relative;
+      top: 0px;
+      right: 0px;
+      margin-top: 40px;
+    }
+  }
+  .about-section-three {
+    .image-column {
+      margin-bottom: 40px;
+    }
+
+    padding: 90px 0px 50px;
+  }
+  .team-block-two {
+    .name {
+      font-size: 24px;
+    }
+  }
+  .sec-title-three {
+    h2 {
+      font-size: 50px;
+    }
+  }
+  .main-footer.style-two {
+    .widgets-section {
+      padding-top: 110px;
+      padding-bottom: 50px;
+      padding-top: 80px;
+
+      .column {
+        padding: 0px 45px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+  .header-style-three {
+    top: 10px;
+  }
+  .about-section-four {
+    .image-column {
+      margin-bottom: 40px;
+    }
+
+    padding: 80px 0px;
+  }
+  .featured-section-three {
+    .content-box {
+      max-width: 100%;
+    }
+
+    .map-layer {
+      .map-content {
+        width: 100%;
+        left: 0%;
+      }
+
+      position: relative;
+      height: 400px;
+    }
+
+    padding-top: 0px;
+    padding: 90px 0px 90px;
+
+    .feature-block-three {
+      &:nth-child(2n) {
+        padding-top: 0px;
+      }
+    }
+  }
+  .skill-section-two {
+    .image-column {
+      .image {
+        &:nth-child(2) {
+          margin-top: 0px;
+
+          &::after {
+            left: 0px;
+            bottom: 0px;
+          }
+
+          &::before {
+            margin-left: 0px;
+            display: none;
+          }
+        }
+
+        width: 50%;
+        max-width: 100%;
+      }
+    }
+
+    .curve {
+      &::before {
+        display: none;
+      }
+    }
+
+    .text-column {
+      margin-bottom: 40px;
+    }
+
+    padding: 80px 0px;
+  }
+  .testimonial-section-two {
+    .text-column {
+      .inner {
+        padding-top: 50px;
+      }
+    }
+
+    .faded-text {
+      .f-text {
+        span {
+          font-size: 100px;
+        }
+      }
+    }
+
+    padding: 80px 0px 50px;
+  }
+  .header-style-five {
+    .nav-content {
+      float: right;
+      width: auto;
+    }
+
+    top: 10px;
+  }
+  .banner-five {
+    .content-box {
+      height: auto;
+      display: block;
+
+      h1 {
+        font-size: 100px;
+      }
+
+      .content {
+        padding: 240px 0px 100px;
+      }
+    }
+
+    .left-shape-layer {
+      display: none;
+    }
+  }
+  .page-banner {
+    .faded-text.light {
+      .f-text {
+        span {
+          font-size: 160px;
+          font-size: 100px;
+        }
+      }
+    }
+  }
+  .welcome-section {
+    .content {
+      h2 {
+        font-size: 48px;
+      }
+    }
+
+    padding: 80px 0px;
+  }
+  .featured-service {
+    .image-column {
+      .inner {
+        padding-right: 0px;
+      }
+    }
+  }
+  .call-to-section {
+    .content {
+      h2 {
+        font-size: 50px;
+      }
+    }
+
+    padding: 80px 0px 60px;
+  }
+  .post-controls {
+    .see-all {
+      position: relative;
+      top: 0px;
+      left: auto;
+      margin: 0px;
+      display: inline-block;
+    }
+
+    .inner {
+      text-align: center;
+      padding-bottom: 80px;
+    }
+  }
+  .post-controls.alternate {
+    .see-all {
+      top: 0px;
+    }
+  }
+  .testimonial-section {
+    padding: 90px 0px 80px;
+  }
+  .services-section {
+    padding: 70px 0px 50px;
+  }
+  .counter-section {
+    padding: 70px 0px 10px;
+  }
+  .process-section {
+    padding: 70px 0px 0px;
+  }
+  .featured-services {
+    padding-top: 70px;
+  }
+  .skills-section {
+    padding-top: 80px;
+  }
+  .featured-section-four {
+    padding: 80px 0px;
+  }
+  .portfolio-section.alt-padding {
+    padding: 80px 0px;
+  }
+  .features-section-two {
+    padding: 80px 0px;
+  }
+  .info-section {
+    padding: 80px 0px;
+  }
+  .news-section-two {
+    padding: 80px 0px;
+  }
+  .team-section-two {
+    padding: 80px 0px;
+  }
+  .services-section-four {
+    padding: 80px 0px;
+  }
+  .team-section {
+    padding: 80px 0px;
+  }
+  .project-details {
+    padding: 90px 0px 50px;
+  }
+  .clients-section {
+    padding: 90px 0px 50px;
+  }
+  .counter-section-two {
+    padding: 90px 0px 40px;
+  }
+  .main-footer {
+    .widgets-section {
+      padding: 90px 0px 40px;
+    }
+  }
+  .more-details {
+    padding: 80px 0px 50px;
+  }
+  .contact-section {
+    padding: 80px 0px 50px;
+  }
+  .sidebar-page-container {
+    padding: 80px 0px 50px;
+  }
+  .portfolio-section-four {
+    padding: 80px 0px 50px;
+  }
+  .portfolio-section-three {
+    padding: 90px 0px 90px;
+  }
+  .testimonial-section.light-style {
+    padding: 90px 0px 90px;
+  }
+  .news-section {
+    padding: 70px 0px 30px;
+  }
+  .news-block-five {
+    .lower-box {
+      padding: 25px 25px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+  }
+  .dotted-bubble-01 {
+    display: none;
+  }
+  .dotted-bubble-02 {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+sub_title: Project development
+title: Roadmap
+items:
+  - positon: 30%
+    release: Q4 <br/> 2020
+    info:
+      - Byteborg protocol live
+
+  - positon: 40%
+    release: Q1 <br/> 2021
+    info:
+      - Add Lending & Borrowing platform
+
+  - positon: 50%
+    release: Q2 <br/> 2021
+    info:
+      - TBD
+
+  - positon: 60%
+    release: Q3 <br/> 2021
+    info:
+      - TBD
+
+  - positon: 70%
+    release: Q1 <br/> 2022
+    info:
+      - TBD

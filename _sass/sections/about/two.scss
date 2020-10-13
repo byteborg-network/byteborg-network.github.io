@@ -1,0 +1,75 @@
+.about-section-two {
+  position: relative;
+  padding: 120px 0px 70px;
+
+  .image-column {
+    position: relative;
+    margin-bottom: 50px;
+
+    .inner {
+      position: relative;
+      display: block;
+      text-align: center;
+    }
+  }
+
+  .counter-column {
+    position: relative;
+    margin-bottom: 50px;
+
+    .inner {
+      position: relative;
+      display: block;
+      text-align: center;
+      padding-top: 50px;
+      padding-right: 20px;
+    }
+
+    .graph-outer {
+      position: relative;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 180px;
+      height: 180px;
+      margin: 0 auto 30px;
+      text-align: center;
+
+      .count-box {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        font-size: 60px;
+        color: #000e22;
+        font-weight: 600;
+        line-height: 60px;
+        margin-top: -30px;
+        font-family: 'Poppins', sans-serif;
+
+        .sign {
+          font-size: 20px;
+        }
+      }
+    }
+
+    h3 {
+      position: relative;
+      font-size: 30px;
+      line-height: 1.25em;
+      color: #000e22;
+      font-weight: 600;
+      margin: 0 0 15px;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: 'Poppins', sans-serif;
+    }
+  }
+
+  .counter-column.last {
+    .inner {
+      padding-left: 20px;
+      padding-right: 0px;
+    }
+  }
+}

@@ -1,0 +1,188 @@
+.more-details {
+  position: relative;
+  background: #ffffff;
+  padding: 120px 0px 90px;
+
+  .text-column {
+    position: relative;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-right: 30px;
+    }
+  }
+
+  .sec-title-four {
+    margin-bottom: 45px;
+
+    h2 {
+      font-size: 58px;
+      text-transform: uppercase;
+    }
+  }
+
+  .skills-column {
+    position: relative;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-left: 30px;
+    }
+  }
+
+  .skill-block {
+    .bar-item {
+      .skill-bar {
+        .bar-inner {
+          background: #e5ecf6;
+          height: 4px;
+        }
+      }
+    }
+  }
+
+  .info-block-two {
+    position: relative;
+    display: block;
+    margin-bottom: 40px;
+    min-height: 100px;
+    padding-left: 140px;
+
+    .icon {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100px;
+      height: 100px;
+      line-height: 100px;
+      font-size: 36px;
+      text-align: center;
+      background: #ffffff;
+      border-radius: 50%;
+      color: #ff6511;
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    h4 {
+      text-transform: uppercase;
+      color: #000e22;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.post-controls {
+  position: relative;
+
+  .inner {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+  }
+
+  .control {
+    position: relative;
+    display: block;
+    padding-left: 130px;
+    min-height: 100px;
+    padding-top: 10px;
+
+    .post-thumb {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100px;
+      height: 80px;
+
+      img {
+        position: relative;
+        display: block;
+        width: 100px;
+        height: 80px;
+      }
+    }
+
+    h4 {
+      text-transform: uppercase;
+      color: #000e22;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      text-transform: capitalize;
+      color: #497188;
+      font-weight: 700;
+      font-size: 16px;
+    }
+
+    .overlink {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+    }
+  }
+
+  .prev-post {
+    float: left;
+    text-align: left;
+  }
+
+  .next-post {
+    float: right;
+    padding-left: 0;
+    padding-right: 130px;
+    text-align: right;
+
+    .post-thumb {
+      right: 0;
+      left: auto;
+    }
+  }
+
+  .see-all {
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 40px;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    font-size: 42px;
+    text-align: center;
+  }
+}
+
+.post-controls.alternate {
+  margin-top: 40px;
+  padding: 0;
+
+  .inner {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .control {
+    padding: 0;
+    min-height: 0;
+
+    h4 {
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+
+  .see-all {
+    font-size: 32px;
+    top: 30px;
+  }
+}

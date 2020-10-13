@@ -1,0 +1,57 @@
+.pagination-box {
+  position: relative;
+  padding-top: 20px;
+}
+
+.styled-pagination {
+  position: relative;
+
+  li {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    min-width: 48px;
+    min-height: 48px;
+    line-height: 46px;
+    text-align: center;
+    color: #5a8299;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    border-radius: 2px;
+    margin: 0 5px 0 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    a {
+      position: relative;
+      display: block;
+      line-height: 46px;
+      font-size: 14px;
+      height: 46px;
+      min-width: 46px;
+      color: #5a8299;
+      font-weight: 400;
+      text-align: center;
+      -webkit-transition: all 300ms ease;
+      -moz-transition: all 300ms ease;
+      -ms-transition: all 300ms ease;
+      -o-transition: all 300ms ease;
+      transition: all 300ms ease;
+
+      &:hover {
+        color: #ffffff;
+        background-color: #ff6000;
+      }
+    }
+
+    .icon {
+      font-size: 16px;
+    }
+
+    a.active {
+      color: #ffffff;
+      background-color: #ff6000;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.header-style-two {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+
+  .header-upper {
+    position: relative;
+  }
+
+  .auto-container {
+    max-width: 1360px;
+  }
+
+  .logo-box {
+    position: relative;
+    float: left;
+  }
+
+  .other-links {
+    position: relative;
+    top: 10px;
+    float: right;
+
+    .link-box {
+      position: relative;
+    }
+  }
+
+  .nav-content {
+    position: relative;
+    float: left;
+    width: calc(100% - 410px);
+  }
+
+  .nav-outer {
+    position: relative;
+    display: block;
+    text-align: center;
+
+    .main-menu {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+
+      .navigation {
+        > li.dropdown {
+          > a {
+            padding-right: 0;
+
+            &:after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.header-style-two.fixed-header {
+  top: 0;
+  background: #222222;
+}

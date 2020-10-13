@@ -1,0 +1,25 @@
+title: Decentralization and Autonomy
+sub_title: Tokenomics
+description: Byteborg Protocol goal is to sustain growth, provide safety over individual stakeholder objectives.
+
+featured_images:
+  - image: /assets/images/about/coin.svg
+    alt: Tokenomics
+    direction: horisontal
+
+#  - image: /assets/images/about/coin.svg
+#    alt: Tokenomics
+#    direction: horisontal
+
+#background_images:
+#  - image: /assets/images/about/japan.jpg
+#    alt: image alt
+#  - image: /assets/images/about/la.jpg
+#    alt: image alt
+
+items:
+  - title: Token Holders
+    description: bear the risk of the protocol, stakeholders contribute in more tangible ways to the protocol, usually in the form of technical integration DEFI integrrations or liquidity providers.
+
+  - title: Security
+    description: protocol codifies trust between stakeholders token holders, vote delegates, liquidity providers and iIntegrations.

@@ -1,0 +1,125 @@
+.banner-section {
+  position: relative;
+  z-index: 1;
+}
+
+.banner-one {
+  position: relative;
+
+  .scroll-down {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-top: -1px;
+    width: 258px;
+    height: 140px;
+    padding-left: 70px;
+    padding-top: 15px;
+    background: url(../images/icons/scroll-to-bg.png) left top no-repeat;
+
+    .scroll-to-target {
+      position: relative;
+      width: 60px;
+      height: 60px;
+      background: #ff6000;
+      line-height: 60px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    .icon {
+      position: relative;
+      display: inline-block;
+      transform: rotate(90deg);
+    }
+  }
+
+  .auto-container {
+    max-width: 1350px;
+  }
+
+  .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .content-box {
+    position: relative;
+    display: table;
+    vertical-align: middle;
+    width: 100%;
+    height: 1000px;
+    z-index: 5;
+
+    .content {
+      position: relative;
+      display: table-cell;
+      vertical-align: top;
+      padding: 400px 0px 50px;
+    }
+
+    .inner {
+      position: relative;
+      display: block;
+      width: 100%;
+      max-width: 720px;
+      text-align: center;
+    }
+
+    .services-title {
+      position: relative;
+      display: block;
+      font-size: 18px;
+      line-height: 1.5em;
+      color: #8e9aa4;
+      font-weight: 700;
+      padding-bottom: 27px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        width: 220px;
+        margin-left: -110px;
+        bottom: 0px;
+        height: 2px;
+        background: #ff6000;
+        background: -webkit-linear-gradient(left, rgba(255, 96, 0, 0.0), rgba(255, 96, 0, 1), rgba(255, 96, 0, 0.0));
+        background: -ms-linear-gradient(left, rgba(255, 96, 0, 0.0), rgba(255, 96, 0, 1), rgba(255, 96, 0, 0.0));
+        background: -moz-linear-gradient(left, rgba(255, 96, 0, 0.0), rgba(255, 96, 0, 1), rgba(255, 96, 0, 0.0));
+      }
+    }
+
+    h1 {
+      display: block;
+      font-size: 140px;
+      line-height: 0.9em;
+      color: #ffffff;
+      font-weight: 400;
+      margin-bottom: 0px;
+      text-transform: uppercase;
+      letter-spacing: -5px;
+      font-family: 'Gilroy-Black', sans-serif;
+      text-shadow: 11px 11px 1px rgba(255, 255, 255, 0.30), 10px 10px 1px rgba(0, 0, 0, 0.10);
+    }
+
+    .text {
+      display: block;
+      font-size: 16px;
+      line-height: 1.7em;
+      color: #ffffff;
+      font-weight: 400;
+    }
+  }
+}

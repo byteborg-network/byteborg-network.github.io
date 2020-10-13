@@ -1,0 +1,113 @@
+.skills-section {
+  position: relative;
+  background: #f9f9ff;
+  background: -webkit-linear-gradient(top, #f9f9ff, #ffffff);
+  background: -ms-linear-gradient(top, #f9f9ff, #ffffff);
+  background: -moz-linear-gradient(top, #f9f9ff, #ffffff);
+  padding: 120px 0px 0px 0px;
+
+  .text-column {
+    position: relative;
+
+    .inner {
+      position: relative;
+      display: block;
+    }
+  }
+
+  .sec-title-three {
+    margin-bottom: 45px;
+  }
+
+  .image-column {
+    position: relative;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-top: 50px;
+      margin-right: -350px;
+    }
+
+    img {
+      position: relative;
+      display: block;
+    }
+  }
+
+  .counter-block-two {
+    &:nth-child(2) {
+      .graph-outer {
+        .count-box {
+          color: #ff5555;
+        }
+      }
+    }
+  }
+}
+
+.counter-block-two {
+  position: relative;
+  margin-bottom: 40px;
+
+  .inner {
+    position: relative;
+    padding-left: 185px;
+    min-height: 150px;
+    padding-top: 15px;
+  }
+
+  .graph-outer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    display: block;
+    text-align: center;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      right: 2px;
+      bottom: 2px;
+      border: 2px solid #dbdbff;
+      border-radius: 50%;
+      box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    canvas {
+      position: relative;
+    }
+
+    .count-box {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      font-size: 48px;
+      color: #39b87b;
+      font-weight: 600;
+      line-height: 60px;
+      margin-top: -30px;
+      font-family: 'Poppins', sans-serif;
+
+      .sign {
+        font-size: 20px;
+      }
+    }
+  }
+
+  h4 {
+    position: relative;
+    font-size: 24px;
+    line-height: 1.3em;
+    color: #000261;
+    font-weight: 600;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+  }
+}

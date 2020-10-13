@@ -1,0 +1,113 @@
+.header-style-one {
+  position: fixed;
+  left: 0;
+  top: 40px;
+  width: 100%;
+  transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+
+  .header-upper {
+    position: relative;
+  }
+
+  .auto-container {
+    max-width: 1360px;
+  }
+
+  .logo-box {
+    position: relative;
+    float: left;
+  }
+
+  .other-links {
+    position: relative;
+    top: 10px;
+    float: right;
+    padding: 15px 35px;
+    background: #ffffff;
+  }
+
+  .search-btn {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+    line-height: 30px;
+    color: #56828d;
+
+    .search-toggler {
+      position: relative;
+      display: block;
+      line-height: 30px;
+      color: #56828d;
+      background: none;
+      padding: 0;
+      font-size: 18px;
+    }
+  }
+
+  .max-nav-toggler {
+    position: relative;
+    float: left;
+
+    .toggle-btn {
+      position: relative;
+      display: block;
+      line-height: 30px;
+      color: #56828d;
+      background: none;
+      padding: 0;
+      font-size: 20px;
+    }
+  }
+
+  .cart-btn {
+    position: relative;
+    float: left;
+    margin-left: 30px;
+
+    .cart-toggler {
+      position: relative;
+      display: block;
+      line-height: 30px;
+      color: #56828d;
+      background: none;
+      padding: 0;
+      font-size: 20px;
+    }
+  }
+
+  .nav-content {
+    position: relative;
+    float: left;
+    width: calc(100% - 350px);
+  }
+
+  .nav-outer {
+    position: relative;
+    display: block;
+    text-align: center;
+
+    .main-menu {
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+}
+
+.header-style-one.fixed-header {
+  top: 0;
+  background: #222222;
+}
+
+.inner-page-header.header-style-one {
+  .other-links {
+    position: relative;
+    top: 10px;
+    padding: 0px;
+    background: none;
+  }
+}

@@ -1,0 +1,16 @@
+
+<script src="{{relative_url}}/assets/js/jquery.js?v={{ site.version }}"></script>
+<script src="{{relative_url}}/assets/js/jquery.fancybox.js?v={{ site.version }}"></script>
+<script src="{{relative_url}}/assets/js/jquery.owl.js?v={{ site.version }}"></script>
+<script src="{{relative_url}}/assets/js/jekyll-search.min.js?v={{ site.version }}"></script>
+<script src="{{relative_url}}/assets/js/jquery.app.js?v={{ site.version }}"></script>
+{% if site.data.config.search %}
+<script>
+    // SEARCH
+    SimpleJekyllSearch({
+        searchInput: document.querySelector('#search-input'),
+        resultsContainer: document.querySelector('#results-container'),
+        json: '/search.json'
+    });
+</script>
+{% endif %}

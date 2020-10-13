@@ -1,0 +1,133 @@
+<!-- Main Header -->
+<header class="main-header header-style-three">
+    <!-- Header Upper -->
+    <div class="header-upper">
+        <div class="auto-container clearfix">
+            <div class="inner clearfix">
+                <!--Logo-->
+                {% if site.data.config.logo_url %}
+                <div class="logo-box">
+                    <div class="logo">
+                        <a href="{{site.url}}">
+                            <img src="{{site.data.config.logo_url}}" alt="{{site.title}}" title="{{site.title}}">
+                        </a>
+                    </div>
+                </div>
+                {% endif %}
+                <div class="nav-content clearfix">
+                    <div class="nav-outer clearfix">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix">
+                                <ul class="navigation clearfix">
+                                    {% for navigation in site.data.navigation %}
+                                    {% if navigation.dropdown %}
+                                    <li class="dropdown">
+                                        <a href="{{navigation.url}}">{{navigation.text}}</a>
+                                        <ul>
+                                            {% for dropdown in navigation.dropdown %}
+                                             <li><a href="{{dropdown.url}}">{{dropdown.text}}</a></li>
+                                            {% endfor %}
+                                        </ul>
+                                    </li>
+                                    {% else %}
+                                    <li><a href="{{navigation.url}}">{{navigation.text}}</a></li>
+                                    {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!--Other Links-->
+                <div class="other-links clearfix">
+                    <!--Nav Toggler-->
+                    <div class="ext-nav-btn">
+                        <button class="theme-btn toggle-btn extend-nav-toggler"><span class="flaticon-menu-2"></span></button>
+                    </div>
+
+                {% if site.data.config.search %}
+                    <!--Search Btn-->
+                    <div class="search-btn">
+                        <button type="button" class="theme-btn search-toggler"><span class="icon flaticon-loupe-2"></span></button>
+                    </div>
+                {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header Upper-->
+
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><span class="icon flaticon-targeting-cross"></span></div>
+        <nav class="menu-box">
+            <div class="nav-logo">
+                <a href="{{site.data.config.url}}">
+                    <img src="{{site.data.config.logo_url}}" alt="{{site.data.config.title}}" title="{{site.data.config.title}}">
+                </a>
+            </div>
+            <div class="menu-outer"><!-- Via Javascript --></div>
+			<!--Social Links-->
+			<div class="social-links">
+                <ul class="clearfix">
+                    {% if site.data.config.github_url %}
+                        <li>
+                            <a href="{{site.data.config.github_url}}"><span class="fab fa-github"></span></a>
+                        </li>
+                    {% endif %}
+                    {% if site.data.config.twitter_url %}
+                    <li>
+                        <a href="{{site.data.config.twitter_url}}"><span class="fab fa-twitter"></span></a>
+                    </li>
+                    {% endif %}
+                    {% if site.data.config.facebook_url %}
+                    <li>
+                        <a href="{{site.data.config.facebook_url}}"><span class="fab fa-facebook-square"></span></a>
+                    </li>
+                    {% endif %}
+                    {% if site.data.config.pinterest_url %}
+                    <li>
+                        <a href="{{site.data.config.pinterest_url}}"><span class="fab fa-pinterest-p"></span></a>
+                    </li>
+                    {% endif %}
+                    {% if site.data.config.instagram_url %}
+                    <li>
+                        <a href="{{site.data.config.instagram_url}}"><span class="fab fa-instagram"></span></a>
+                    </li>
+                    {% endif %}
+                    {% if site.data.config.youtube_url %}
+                    <li>
+                        <a href="{{site.data.config.youtube_url}}"><span class="fab fa-youtube"></span></a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </nav>
+    </div><!-- End Mobile Menu -->
+</header>
+<!-- End Main Header -->
+
+{% if site.data.config.search %}
+<!--Search Popup-->
+<div id="search-popup" class="search-popup">
+    <div class="close-search theme-btn"><span class="flaticon-targeting-cross"></span></div>
+    <div class="popup-inner">
+        <div class="overlay-layer"></div>
+        <div class="search-form">
+            <form method="post" action="/">
+                <div class="form-group">
+                    <fieldset>
+                        <input type="search" class="form-control" id="search-input" name="search-input" value="" placeholder="Search Here" required />
+                        <input type="submit" value="Search Now!" class="theme-btn"/>
+                    </fieldset>
+                </div>
+            </form>
+            <ul id="results-container"></ul>
+        </div>
+    </div>
+</div>
+{% endif %}

@@ -1,0 +1,65 @@
+.counter-section {
+  position: relative;
+  padding: 120px 0px 50px;
+  background: #001f29 url(../images/background/pattern-2.png) left top repeat;
+}
+
+.counter-block {
+  position: relative;
+  text-align: center;
+  margin-bottom: 70px;
+
+  .inner-box {
+    position: relative;
+    min-height: 200px;
+  }
+
+  .graph-outer {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    text-align: center;
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 35px;
+      top: 35px;
+      right: 35px;
+      bottom: 35px;
+      border: 3px solid #052c39;
+      border-radius: 50%;
+    }
+
+    .count-box {
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      font-size: 48px;
+      color: #ffffff;
+      font-weight: 400;
+      line-height: 60px;
+      margin-top: -30px;
+      font-family: 'Gilroy-SemiBold', sans-serif;
+
+      .sign {
+        font-size: 20px;
+      }
+    }
+  }
+
+  h5 {
+    position: relative;
+    font-size: 20px;
+    line-height: 1.25em;
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}

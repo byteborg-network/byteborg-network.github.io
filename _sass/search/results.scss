@@ -1,0 +1,28 @@
+#results-container {
+  background-color: rgba(0, 0, 0, .6);
+
+  li {
+    padding: 0 10px;
+
+    &:first-child {
+      padding-top: 15px;
+    }
+
+    &:last-child {
+      padding-bottom: 20px;
+    }
+
+    a {
+      display: inline-block;
+      color: #fff;
+      font-size: 18px;
+      padding: 5px;
+      border-bottom: 1px solid #ff6000;
+      margin-bottom: 5px;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

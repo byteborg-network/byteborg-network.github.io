@@ -1,0 +1,47 @@
+background: /assets/images/background/office.jpg
+
+
+#title: contact
+#sub_title: get in touch
+#
+
+call_to_box:
+  title: call to action
+  sub_title: anything on your mind <br>let us know.
+#  actions:
+#    - url: /contact
+#      title: Contact
+#    - url: /about
+#      title: About
+
+
+#items:
+#  - icon: flaticon-call
+#    title: phone number
+#    links:
+#      - url: tel:+1 111 111 111
+#        title: +1 111 111 111
+#      - url: tel:+1 111 111 111
+#        title: +1 111 111 111
+#
+#  - icon: flaticon-envelope
+#    title: email address
+#    links:
+#      - url: mailto:contact@byteborg.network
+#        title: contact@byteborg.network
+#      - url: mailto:contact@byteborg.network
+#        title: contact@byteborg.network
+#
+#  - icon: flaticon-worldwide-1
+#    title: web address
+#    links:
+#      - url: https://byteborg.network
+#        title: byteborg.network
+#      - url: https://byteborg.network
+#        title: byteborg.network
+#
+#  - icon: flaticon-placeholder-3
+#    title: office address
+#    links:
+#      - title: Currrent Address
+#      - title: Currrent Address

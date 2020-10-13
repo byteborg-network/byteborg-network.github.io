@@ -1,0 +1,17 @@
+.portfolio-section-three.fullwidth {
+  padding-bottom: 0;
+
+  .gallery-item-two {
+    position: relative;
+    margin: 0;
+    width: 25%;
+  }
+
+  .gallery-item-two.width-50 {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+  }
+}

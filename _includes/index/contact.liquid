@@ -1,0 +1,69 @@
+{%- if site.data.contact %}
+<!--Contact Section-->
+<section class="info-section">
+    <div class="bubble-dotted">
+        {%- for i in (1..10) %}
+            <span class="dotted dotted-{{ i }}"></span>
+        {%- endfor %}
+    </div>
+    {%- if site.data.contact.background %}
+    <div class="image-layer" style="background-image: url({{ site.data.contact.background }});"></div>
+    {%- endif %}
+    {%- if site.data.contact.title %}
+    <div class="faded-text style-two light"><div class="f-text"><span>{{ site.data.contact.title }}</span></div></div>
+    {%- endif %}
+    <div class="auto-container">
+        <div class="sec-title-three light centered">
+            {%- if site.data.contact.title %}
+            <div class="sub-title">{{ site.data.contact.title }}</div>
+            {%- endif %}
+            {%- if site.data.contact.sub_title %}
+            <h2>{{ site.data.contact.sub_title }}</h2>
+            {%- endif %}
+        </div>
+        {%- if site.data.contact.items %}
+        <div class="info">
+            <div class="row clearfix">
+                {%- for item in site.data.contact.items %}
+                <!--Info Block-->
+                <div class="info-box col-xl-3 col-lg-6 col-md-6 col-sm-12">
+                    <div class="inner hvr-bob">
+                        <div class="icon-box"><span class="{{ item.icon }}"></span></div>
+                        <h4>{{ item.title }}</h4>
+                        <ul>
+                            {%- for link in item.links %}
+                            <li>
+                                {%- if link.url %}
+                                <a href="{{ link.url }}">{{ link.title }}</a>
+                                {%- else %}
+                                    {{ link.title }}
+                                {%- endif %}
+                            </li>
+                            {%- endfor %}
+                        </ul>
+                    </div>
+                </div>
+                {%- endfor %}
+            </div>
+        </div>
+        {%- endif %}
+        {%- if site.data.contact.call_to_box %}
+        <div class="call-to-box">
+            <div class="sec-title-three light centered">
+                <div class="sub-title">{{ site.data.contact.call_to_box.title }}</div>
+                <h2>{{ site.data.contact.call_to_box.sub_title }}</h2>
+                {%- if site.data.contact.call_to_box.actions %}
+                <div class="link-box clearfix">
+                    {%- for action in site.data.contact.call_to_box.actions %}
+                    <a href="{{ action.url }}" class="theme-btn btn-style-three">
+                        <span class="btn-title">{{ action.title }}</span>
+                    </a>
+                    {%- endfor %}
+                </div>
+                {%- endif %}
+            </div>
+        </div>
+        {%- endif %}
+    </div>
+</section>
+{%- endif %}

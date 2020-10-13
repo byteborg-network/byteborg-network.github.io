@@ -1,0 +1,147 @@
+.testimonial-section-two {
+  position: relative;
+  background: #ffffff;
+  padding: 120px 0px 70px;
+  overflow: hidden;
+
+  .faded-text {
+    top: -80px;
+
+    .f-text {
+      span {
+        text-transform: uppercase;
+        font-size: 220px;
+        color: #ffffff;
+        text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.04), 1px -1px 0 rgba(0, 0, 0, 0.04), -1px 1px 0 rgba(0, 0, 0, 0.04), 1px 1px 0 rgba(0, 0, 0, 0.04);
+      }
+    }
+  }
+
+  .image-column {
+    position: relative;
+    margin-bottom: 50px;
+    order: 0;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-right: 20px;
+    }
+
+    .image-box {
+      position: relative;
+      display: block;
+      overflow: hidden;
+
+      &:before {
+        content: '';
+        position: absolute;
+        background: #ff6511;
+        left: 0;
+        bottom: -70px;
+        width: 100%;
+        height: 65%;
+        transform: skewY(10deg);
+      }
+    }
+
+    .image {
+      position: relative;
+      display: block;
+      z-index: 1;
+
+      img {
+        position: relative;
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+
+  .text-column {
+    position: relative;
+    margin-bottom: 50px;
+    order: 12;
+
+    .inner {
+      position: relative;
+      display: block;
+      padding-left: 60px;
+      padding-top: 90px;
+    }
+  }
+
+  .sec-title-four {
+    margin-bottom: 30px;
+  }
+
+  .content {
+    position: relative;
+    display: block;
+
+    .big-text {
+      position: relative;
+      font-size: 24px;
+      color: #000e22;
+      font-weight: 600;
+      line-height: 1.4em;
+    }
+
+    .text {
+      position: relative;
+      font-size: 14px;
+      color: #47698e;
+      margin-top: 25px;
+    }
+
+    .info {
+      position: relative;
+      margin-top: 40px;
+      padding-left: 80px;
+      min-height: 60px;
+      padding-top: 5px;
+
+      .image {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+        border-radius: 50%;
+
+        img {
+          position: relative;
+          display: block;
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+        }
+      }
+
+      .name {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: capitalize;
+        color: #000e22;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      .designation {
+        position: relative;
+        padding-top: 3px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: #ff6511;
+      }
+    }
+  }
+
+  .big-text {
+    span {
+      color: #ff6511;
+    }
+  }
+}
