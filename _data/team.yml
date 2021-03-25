@@ -3,19 +3,17 @@ title: Team
 sub_title: our leadership
 items:
 
-  - image_url: /assets/images/team/igor-ivanovic.png
-    image_alt: Igor Ivanovic
-    image_title: Igor Ivanovic
-    proffesion: Founder
-    name: Igor Ivanovic
-    text: I’m an open-minded, fast learner, eager to adopt. I always have positive energy and for me, if some approach didn’t work, I’ll try something else. I learn from criticism, I embrace challenges, I find inspiration in the success of others.
+  - image_url: /assets/images/team/male.jpg
+    image_alt: Future
+    image_title: Future
+    proffesion: CO-Founder
+    name: This could be you
+    text: After relasing MVP product I will search for founding team, are you passionate about blockchain technology ? Do you want to start your own project ? Do you want to be an entrepreneur ? Let`s connect via Linkedin, I´m looking forward towards our discussion!
     social:
       - url: https://www.linkedin.com/in/igorivanoviczg
         type: linkedin
       - url: https://twitter.com/igorzg1987
         type: twitter
-      - url: https://www.youtube.com/channel/UCEmZLpOIvIOY248fxIp35ew
-        type: youtube
 
   - image_url: /assets/images/team/fmale.jpg
     image_alt: Future
